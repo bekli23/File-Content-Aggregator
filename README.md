@@ -20,4 +20,12 @@ Example:
 director_start = '.'  # This specifies the current directory. Modify as needed.
 nume_fisiere = ['All Passwords.txt', 'passwords.txt']
 fisier_iesire = 'out.txt'
-Feel free to adjust the description to better fit your repository or any additional functionalities you might add to the scri
+
+
+Password Extractor
+
+Description:
+This script recursively scans files within a specified directory, extracting lines that contain the keywords "Password:", "pass:", or "PASS:". It then saves the unique lines (without the keywords) to an output file. If the output file or its directories don't exist, they will be automatically created.
+
+Usage:
+Set the director_start to your starting directory and fisier_iesire for the output file name, then run the script.
